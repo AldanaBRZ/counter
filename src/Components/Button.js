@@ -5,7 +5,7 @@ const Button = (props) => {
     <div className="col">
       <button className="btn"
         onClick={props.handleClick}>
-          <i class={`fas fa-angle-${props.action}`}></i>
+          <i className={`fas fa-angle-${props.action}`}></i>
       </button>
     </div>
   );
