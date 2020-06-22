@@ -10,10 +10,10 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   text-align: center;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   font-size: 100px;
 }
 
@@ -33,7 +33,7 @@ body {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 60px;
+  margin-left: 40px;
 }
 
 h1 {
@@ -67,21 +67,37 @@ h2 {
   font-size: 200px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   #main-display {
     font-size: 90px;
+    width: max-content;
+    margin: auto;
   }
 
   .btn {
     font-size: 40px;
   }
 
-  h1 {
+  #number-display {
     font-size: 40px;
-    width: max-content;
+    width: 90px;
+    margin: auto;
+    margin-block-start: 1.3em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
 
   h2 {
     font-size: 35px;
   }  
+
+  .display-control {
+    width: 300px;
+    margin: auto;
+  }
+
+  .row {
+    margin: auto;
+  }
 }
