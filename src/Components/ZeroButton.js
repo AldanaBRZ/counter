@@ -5,7 +5,7 @@ const ZeroButton = (props) => {
     <div className="col">
       <button className="btn zero-btn"
         onClick={props.handleClick}>
-          <i class="fas fa-angle-double-down"></i>
+          <i className="fas fa-angle-double-down"></i>
       </button>
     </div>
   );
