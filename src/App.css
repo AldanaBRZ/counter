@@ -39,6 +39,7 @@ body {
 h1 {
   height: 100%;
   font-size: 100px;
+  margin: 20px;
   font-family: 'Major Mono Display', monospace;
 }
 
@@ -47,7 +48,7 @@ h2 {
 }
 
 .btn {
-  margin: 20px 0;
+  margin: 20px;
   background-color: transparent;
   font-size: 100px;
   color: white;
@@ -68,7 +69,7 @@ h2 {
 
 @media only screen and (max-width: 768px) {
   #main-display {
-    font-size: 140px;
+    font-size: 90px;
   }
 
   .btn {
@@ -76,7 +77,8 @@ h2 {
   }
 
   h1 {
-    font-size: 80px;
+    font-size: 40px;
+    width: max-content;
   }
 
   h2 {
